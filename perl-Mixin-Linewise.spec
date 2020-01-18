@@ -1,6 +1,6 @@
 Name:           perl-Mixin-Linewise
 Version:        0.004
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Write your linewise code for handles; this does the rest
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -53,6 +53,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.004-2
+- Mass rebuild 2013-12-27
+
 * Fri Jun 21 2013 Iain Arnell <iarnell@gmail.com> 0.004-1
 - update to latest upstream version
 - clean up spec for modern rpmbuild
